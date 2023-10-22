@@ -2,7 +2,7 @@ from urllib.request import urlopen,Request
 from fake_useragent import UserAgent
 import re
 
-class spider_baiduRealtime:
+class baiduRealtimeScraper:
     def __init__(self):
         self.url = 'https://top.baidu.com/board?tab=realtime'
         self.headers = {'User-Agent': UserAgent().random}
