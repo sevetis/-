@@ -34,7 +34,7 @@ class baiduRealtimeScraper:
         self.display()
 
 if __name__ == '__main__':
-    spider = spider_baiduRealtime()
+    spider = baiduRealtimeScraper()
     spider.work()
 
 
